@@ -1,0 +1,10 @@
+int main()
+{
+    int a;
+    int b;
+    a = 5;
+    a = a + a;
+    print a; // 10
+    b = a - 7;
+    print b; // 3
+}

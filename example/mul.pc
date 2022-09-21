@@ -1,0 +1,15 @@
+int main()
+{
+    int a;
+    int b;
+    int c;
+
+    a = 3;
+    b = 7;
+    c = 0;
+    while (0 < b) {
+        c = c + a;
+        b = b - 1;
+    }
+    print c;
+}

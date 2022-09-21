@@ -1,0 +1,28 @@
+int main()
+{
+    int i; int j; int n; int is_prime;
+    int c1; int c2; int c3; int c;
+    n = 100000;
+    i = 2;
+    while (i < n) {
+        is_prime = 1;
+        j = 2;
+        c1 = is_prime < 1; // ! is_prime
+        c2 = j < i < 1;    // ! j < i
+        c3 = c1 + c2;
+        c = c3 < 1;        // is_prime && j < i
+        while (c) {
+            is_prime = i;
+            // j <= is_prime == ! is_prime < j == is_prime < j < 1
+            while (is_prime < j < 1) is_prime = is_prime - j;
+            j = j + 1;
+            c1 = is_prime < 1;
+            c2 = j < i < 1;
+            c3 = c1 + c2;
+            c = c3 < 1; // is_prime && j < i
+        }
+        c = j < i < 1; // i <= j == ! j < i == j < i < 1
+        while (c) { print i; c = 0; }
+        i = i + 1;
+    }
+}

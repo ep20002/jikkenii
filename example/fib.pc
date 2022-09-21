@@ -1,0 +1,17 @@
+int main()
+{
+    int n;
+    n = 30;
+
+    int f1; // ひとつ前の値
+    int f2; // ふたつ前の値
+    f1 = 0; f2 = 1;
+    while (0 < n) {
+        int a;
+        a = f1 + f2;
+        print a;
+        f2 = f1;
+        f1 = a;
+        n = n - 1;
+    }
+}
