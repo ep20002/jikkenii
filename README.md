@@ -1,7 +1,6 @@
 # 情報工学実験II コンパイラ
 
 情報工学実験IIのコンパイラテーマで使用するコードです。
-
 ```
 .
 ├── compile_flags.txt.sample
@@ -35,5 +34,6 @@
     ├── README.md
     ├── tidwall_hashmap.c
     └── tidwall_hashmap.h
-    ```
+```
+
 tidwallディレクトリ以下のファイルは[tidwall氏のハッシュ表実装](https://github.com/tidwall/hashmap.c)でMITライセンスです。
