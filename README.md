@@ -36,4 +36,4 @@
     ├── tidwall_hashmap.c
     └── tidwall_hashmap.h
     ```
-tidwallディレクトリ以下のファイルは[tidwall氏のハッシュ表実装](git@github.com:okuisatoshi/jikkenii.git)でMITライセンスです。
+tidwallディレクトリ以下のファイルは[tidwall氏のハッシュ表実装](https://github.com/tidwall/hashmap.c)でMITライセンスです。
