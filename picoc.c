@@ -1,15 +1,3 @@
-/***
-Program   ::= 'int' 'id' '(' ')' Block   (idは"main"に限る)
-Block     ::= '{' ( Var_decl | Statement )* '}'
-Var_decl  ::= 'int' id ';'
-Statement ::= Assign_st | Print_st | While_st
-Assign_st ::= 'id' '=' Expr ';'
-Print_st  ::= 'print' Expr ';'
-While_st  ::= 'while' '(' Expr ')' Statement
-Expr      ::= Factor(1) ( ( '+' | '-' | '<' ) Factor(2) )*
-Factor    ::= 'id' | 'num'
- ***/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
