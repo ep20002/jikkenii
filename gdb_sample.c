@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <ctype.h>
 
 char *s = "Hello world";
 //char s[16] = "Hello world";
